@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57ac09b8-07e6-416b-9226-c240a1c71fc1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/leetCodePython.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data_structure/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../data_structure/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data_structure/all_sort/bubble_sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../data_structure/all_sort/bubble_sort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data_structure/link_list/01_sigle_link_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../data_structure/link_list/01_sigle_link_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leetCodePython.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetCodePython.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_10_leetCode/1_twoSum.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_10_leetCode/1_twoSum.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,36 +27,64 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="1" />
+          <entry key="LICENSE" value="1" />
+          <entry key="py" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="1" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="493" />
+          <entry key="Python Console" value="4" />
+          <entry key="py" value="2220" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="493" />
+          <entry key="Python" value="2224" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1_10_leetCode/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="484">
+              <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
+              <folding>
+                <marker date="1568637963559" expanded="true" signature="67:72" ph="..." />
+                <marker date="1568637963559" expanded="true" signature="175:285" ph="..." />
+                <marker date="1568637963559" expanded="true" signature="1401:1568" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/1_10_leetCode/2_addTwoNumbers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="246">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <marker date="1568641640413" expanded="true" signature="65:147" ph="..." />
+                <marker date="1568641640413" expanded="true" signature="162:167" ph="..." />
+                <marker date="1568641640413" expanded="true" signature="162:478" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1_10_leetCode/1_twoSum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
-              <folding>
-                <marker date="1568606929940" expanded="true" signature="408:579" ph="..." />
-              </folding>
+            <state relative-caret-position="124">
+              <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -72,15 +105,18 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/1_10_leetCode/1_twoSum.py" />
+        <option value="$PROJECT_DIR$/1_10_leetCode/test.py" />
+        <option value="$PROJECT_DIR$/1_10_leetCode/2_addTwoNumbers.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="578" />
-    <option name="y" value="65" />
+    <option name="x" value="704" />
+    <option name="y" value="35" />
     <option name="width" value="1207" />
     <option name="height" value="877" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -92,6 +128,11 @@
             <path>
               <item name="leetCodePython" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetCodePython" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetCodePython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetCodePython" type="462c0819:PsiDirectoryNode" />
+              <item name="1_10_leetCode" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -157,7 +198,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="578" y="65" width="1207" height="877" extended-state="0" />
+    <frame x="704" y="35" width="1207" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.27403036" />
@@ -165,12 +206,12 @@
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32994923" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4304462" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.43832022" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32959327" />
-      <window_info anchor="bottom" id="Python Console" order="7" weight="0.32913166" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.328084" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.6062992" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
@@ -183,12 +224,40 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../../data_structure/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3970">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_10_leetCode/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
+          <folding>
+            <marker date="1568637963559" expanded="true" signature="67:72" ph="..." />
+            <marker date="1568637963559" expanded="true" signature="175:285" ph="..." />
+            <marker date="1568637963559" expanded="true" signature="1401:1568" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/1_10_leetCode/1_twoSum.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+        <state relative-caret-position="124">
+          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_10_leetCode/2_addTwoNumbers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
           <folding>
-            <marker date="1568606929940" expanded="true" signature="408:579" ph="..." />
+            <marker date="1568641640413" expanded="true" signature="65:147" ph="..." />
+            <marker date="1568641640413" expanded="true" signature="162:167" ph="..." />
+            <marker date="1568641640413" expanded="true" signature="162:478" ph="..." />
           </folding>
         </state>
       </provider>

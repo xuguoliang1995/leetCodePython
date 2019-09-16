@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../data_structure/.idea/data_structure.iml" filepath="$PROJECT_DIR$/../../data_structure/.idea/data_structure.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/leetCodePython.iml" filepath="$PROJECT_DIR$/.idea/leetCodePython.iml" />
     </modules>
   </component>
