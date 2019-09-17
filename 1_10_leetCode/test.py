@@ -80,6 +80,3 @@ class SingleLink(object):
             else:
                 pre = cur
                 cur = cur.next
-
-
-
