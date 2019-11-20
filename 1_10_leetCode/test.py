@@ -1,82 +1,87 @@
 # /usr/bin/env python3
 # encoding: utf-8
 
-class SingleNode(object):
+class Node(object):
     def __init__(self, item):
         self.item = item
-        self.next = None
+        self.lchild = None
+        self.rchild = None
 
 
-class SingleLink(object):
+class Tree(object):
     def __init__(self):
-        self._head = None
-
-    def is_empty(self):
-        return self._head == None
-
-    def length(self):
-        cur = self._head
-        count = 0
-        while cur != None:
-            count += 1
-            cur = cur.next
-        return count
-
-    def travel(self):
-        cur = self._head
-        while cur != None:
-            print(cur.elem)
-            cur = cur.next
-        print("")
+        self.root = None
 
     def add(self, item):
-        node = SingleNode(item)
-        node.next = self._head
-        self._head = node
-
-    def append(self, item):
-        node = SingleNode(item)
-        if self.is_empty():
-            self._head = node
-        else:
-            cur = self._head
-            while cur != None:
-                cur = cur.next
-            cur.next = node
-
-    def insert(self, pos, item):
-        if pos <= 0:
-            self.add(item)
-        elif pos > (self.length() - 1):
-            self.append(item)
-        else:
-            node = SingleNode(item)
-            count = 0
-            cur = self._head
-            while count < (pos - 1):
-                count += 1
-                cur = cur.next
-            node.next = cur.next
-            cur.next = node
-
-    def search(self, item):
-        cur = self._head
-        while cur != None:
-            if cur.item == item:
-                return True
-            cur = cur.next
-        return False
-
-    def remove(self, item):
-        cur = self._head
-        pre = None
-        while cur != None:
-            if cur.item == item:
-                if not pre:
-                    self._head = cur.next
-                else:
-                    pre.next = cur.next
-                break
+        node = Node(item)
+        if self.root is None:
+            self.root = node
+            return
+        queue = [self.root]
+        while queue:
+            cur_node = queue.pop(0)
+            if cur_node.lchild is None:
+                cur_node.lchild = node
+                return
             else:
-                pre = cur
-                cur = cur.next
+                queue.append(cur_node.lchild)
+            if cur_node.rchild is None:
+                cur_node.rchild = node
+                return
+            else:
+                queue.append(cur_node.rchild)
+
+    def breadth_travel(self):
+        if self.root is None:
+            return
+        queue = [self.root]
+        while queue:
+            cur_node = queue.pop(0)
+            print(cur_node.item)
+            if cur_node.lchild is not None:
+                queue.append(cur_node.lchild)
+            if cur_node.rchild is not None:
+                queue.append(cur_node.rchild)
+
+    def preorder(self, node):
+        if node is None:
+            return
+        print(node.item, end=" ")
+        self.preorder(node.lchild)
+        self.preorder(node.rchild)
+
+    def inorder(self, node):
+        if node is None:
+            return
+        self.preorder(node.lchild)
+        print(node.item, end=" ")
+        self.inorder(node.rchild)
+
+    def postorder(self, node):
+        if node is None:
+            return
+        self.postorder(node.lchild)
+        self.postorder(node.rchild)
+        print(node.item, end=" ")
+
+
+if __name__ == "__main__":
+    tree = Tree()
+    tree.add(0)
+    tree.add(1)
+    tree.add(2)
+    tree.add(3)
+    tree.add(4)
+    tree.add(5)
+    tree.add(6)
+    tree.add(7)
+    tree.add(8)
+    tree.add(9)
+    tree.breadth_travel()
+    print(" ")
+    tree.preorder(tree.root)
+    print(" ")
+    tree.inorder(tree.root)
+    print(" ")
+    tree.postorder(tree.root)
+    print(" ")
